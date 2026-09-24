@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - DIDWMSA BARGAYARY</title>
+    <meta name="description" content="Explore open-source security tools, network discovery scripts, and featured Android applications developed by DIDWMSA BARGAYARY.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Scripts -->
+    <script src="js/background-animation.js" defer></script>
+    <script src="js/audio.js" defer></script>
+    <script src="js/main.js" defer></script>
+    
+    <audio id="background-music" src="DIDWMSA.mp3" loop preload="auto"></audio>
+</head>
+<body>
+
+    <!-- Site Header & Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-link" aria-label="Homepage">
+                <div class="brand-avatar">
+                    <img src="images/profile.jpg" alt="DIDWMSA BARGAYARY">
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">DIDWMSA BARGAYARY</span>
+                    <span class="brand-tagline">Cybersecurity & Development</span>
+                </div>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="index.html#services" class="nav-link"><i class="fas fa-layer-group"></i> Services</a></li>
+                    <li><a href="mobile.html" class="nav-link"><i class="fas fa-mobile-alt"></i> Mobile Apps</a></li>
+                    <li><a href="pdf.html" class="nav-link"><i class="fas fa-file-pdf"></i> PDFs</a></li>
+                    <li><a href="projects.html" class="nav-link active"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="index.html#connect" class="nav-link nav-cta"><i class="fas fa-paper-plane"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="section-header">
+                <div class="badge section-tag">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>PORTFOLIO & TOOLS</span>
+                </div>
+                <h1 class="section-title">Featured <span class="text-gradient">Projects &amp; Tools</span></h1>
+                <p class="section-desc">
+                    Open-source utilities, network scripts, and mobile applications created for security researchers, network engineers, and sports enthusiasts.
+                </p>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1: IPS -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="badge badge-green"><i class="fas fa-check-circle"></i> Active Open Source</span>
+                        <i class="fab fa-github" style="font-size: 1.5rem; color: var(--text-dim);"></i>
+                    </div>
+
+                    <h2 class="project-title">IPS – IP &amp; MAC Discovery Tool</h2>
+
+                    <p class="project-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                        A streamlined, open-source utility available on GitHub to help users and penetration testers discover public and local IP addresses alongside hardware MAC addresses rapidly in terminal environments.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tech-tag">Bash Scripting</span>
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">Network Auditing</span>
+                        <span class="tech-tag">Open Source</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/didwmsabargayary/ips" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Featured Mobile App -->
+                <div class="project-card" style="border-color: rgba(56, 189, 248, 0.35); box-shadow: 0 0 25px rgba(0, 242, 254, 0.1);">
+                    <div class="project-header">
+                        <span class="badge badge-live"><span class="pulse-dot"></span> Featured Android App</span>
+                        <i class="fab fa-android" style="font-size: 1.5rem; color: #3ddc84;"></i>
+                    </div>
+
+                    <h2 class="project-title">CricZ TV Mobile Application (v6.0)</h2>
+
+                    <p class="project-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                        Watch live sports and never miss the action. Brings matches and games together in one place, including Football, Cricket, Olympics and other major sporting events in a clean mobile interface.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tech-tag">Android APK</span>
+                        <span class="tech-tag">Live Sports</span>
+                        <span class="tech-tag">Football &amp; Cricket</span>
+                        <span class="tech-tag">Olympics</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="downloads/CricZ_TV_v6.0.apk" download="CricZ_TV_v6.0.apk" class="btn btn-download btn-sm">
+                            <i class="fas fa-download"></i> Download CricZ TV (17.9 MB)
+                        </a>
+                        <a href="mobile.html" class="btn btn-secondary btn-sm">
+                            Details <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: PDF Security Knowledge Engine -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="badge"><i class="fas fa-book"></i> Resource Hub</span>
+                        <i class="fas fa-file-pdf" style="font-size: 1.5rem; color: #ef4444;"></i>
+                    </div>
+
+                    <h2 class="project-title">Cybersecurity PDF Reference Engine</h2>
+
+                    <p class="project-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                        A static client-side library containing 50+ structured penetration testing books, interview guides, and networking cheat sheets with live keyword search and in-browser preview modal.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tech-tag">HTML5 / Vanilla JS</span>
+                        <span class="tech-tag">PDF.js</span>
+                        <span class="tech-tag">Instant Search</span>
+                        <span class="tech-tag">Static Hosting</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="pdf.html" class="btn btn-primary btn-sm">
+                            <i class="fas fa-search"></i> Explore PDFs
+                        </a>
+                        <a href="list-all-pdfs.html" class="btn btn-secondary btn-sm">
+                            Full Index
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Coming Soon Lab Utilities -->
+                <div class="project-card" style="background: rgba(15, 23, 42, 0.4); border-style: dashed;">
+                    <div class="project-header">
+                        <span class="badge"><i class="fas fa-hourglass-half"></i> In Active Development</span>
+                        <i class="fas fa-code-branch" style="font-size: 1.5rem; color: var(--text-dim);"></i>
+                    </div>
+
+                    <h2 class="project-title">Network Packet Analyzer &amp; Bug Scanner</h2>
+
+                    <p class="project-desc" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                        Currently developing lightweight terminal security analyzers for automated port auditing, header inspection, and packet anomaly detection. Will be released open-source on GitHub soon.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tech-tag">Python 3</span>
+                        <span class="tech-tag">Scapy</span>
+                        <span class="tech-tag">Security Audit</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/didwmsabargayary" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                            <i class="fab fa-github"></i> Follow on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="brand-link">
+                        <div class="brand-avatar">
+                            <img src="images/profile.jpg" alt="DIDWMSA BARGAYARY">
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-name">DIDWMSA BARGAYARY</span>
+                            <span class="brand-tagline">Cybersecurity & Tools</span>
+                        </div>
+                    </a>
+                    <p>
+                        Dedicated to cybersecurity research, network security engineering, open-source utilities, and modern mobile software.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Resources &amp; Apps</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#mobile-app">Featured Mobile App</a></li>
+                        <li><a href="mobile.html">Mobile App Hub</a></li>
+                        <li><a href="pdf.html">PDF Library</a></li>
+                        <li><a href="list-all-pdfs.html">All PDF Files</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Direct Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/didwmsabargayary" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub Profile</a></li>
+                        <li><a href="downloads/CricZ_TV_v6.0.apk" download="CricZ_TV_v6.0.apk"><i class="fas fa-download"></i> Download CricZ TV (.APK)</a></li>
+                        <li><a href="https://wa.me/918638964442" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    &copy; <span class="current-year">2024</span> DIDWMSA BARGAYARY. All rights reserved.
+                </div>
+                <div class="gh-pages-badge">
+                    <i class="fab fa-github"></i> Static GitHub Pages Ready
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

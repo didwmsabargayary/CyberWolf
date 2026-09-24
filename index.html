@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIDWMSA BARGAYARY - Cybersecurity Specialist & Developer</title>
+    <meta name="description" content="Portfolio of DIDWMSA BARGAYARY - Cybersecurity Enthusiast, Penetration Tester, Network Engineer, Open-Source Tool Creator and Mobile App Developer.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Scripts -->
+    <script src="js/background-animation.js" defer></script>
+    <script src="js/audio.js" defer></script>
+    <script src="js/main.js" defer></script>
+    
+    <!-- Background Audio File -->
+    <audio id="background-music" src="DIDWMSA.mp3" loop preload="auto"></audio>
+</head>
+<body>
+
+    <!-- Site Header & Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-link" aria-label="Homepage">
+                <div class="brand-avatar">
+                    <img src="images/profile.jpg" alt="DIDWMSA BARGAYARY">
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">DIDWMSA BARGAYARY</span>
+                    <span class="brand-tagline">Cybersecurity & Development</span>
+                </div>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#services" class="nav-link"><i class="fas fa-layer-group"></i> Services</a></li>
+                    <li><a href="#mobile-app" class="nav-link"><i class="fas fa-mobile-alt"></i> Mobile Apps</a></li>
+                    <li><a href="pdf.html" class="nav-link"><i class="fas fa-file-pdf"></i> PDFs</a></li>
+                    <li><a href="projects.html" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#connect" class="nav-link nav-cta"><i class="fas fa-paper-plane"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge">
+                        <span class="pulse-dot"></span>
+                        <span>Cybersecurity • Open-Source • Mobile Engineering</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Securing Digital Systems &amp; <span class="text-gradient">Building Smart Tools</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Welcome to the official portfolio and resource hub of DIDWMSA BARGAYARY. Discover custom network tools, curated security libraries, and our featured mobile applications.
+                    </p>
+
+                    <!-- Interactive Terminal Console -->
+                    <div class="typing-box">
+                        <div class="terminal-header">
+                            <span class="terminal-dot dot-red"></span>
+                            <span class="terminal-dot dot-yellow"></span>
+                            <span class="terminal-dot dot-green"></span>
+                            <span class="terminal-title">didwmsa@security-station:~$ summary</span>
+                        </div>
+                        <p><span id="typing-text"></span><span class="typing-cursor"></span></p>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#mobile-app" class="btn btn-primary"><i class="fas fa-download"></i> Get Mobile App</a>
+                        <a href="#services" class="btn btn-secondary"><i class="fas fa-compass"></i> Explore Services</a>
+                        <a href="pdf.html" class="btn btn-outline"><i class="fas fa-book-open"></i> Browse PDFs</a>
+                    </div>
+                </div>
+
+                <!-- Hero Spotlight Card -->
+                <div class="hero-visual">
+                    <div class="hero-card-preview">
+                        <div class="profile-spotlight">
+                            <div class="spotlight-avatar">
+                                <img src="images/profile.jpg" alt="DIDWMSA BARGAYARY">
+                            </div>
+                            <div class="spotlight-info">
+                                <h3>DIDWMSA BARGAYARY</h3>
+                                <p><i class="fas fa-map-marker-alt"></i> Kokrajhar, Assam, India</p>
+                                <span class="badge badge-green" style="margin-top: 0.35rem;">
+                                    <i class="fas fa-shield-alt"></i> CCNA & CCNP Certified
+                                </span>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 0.92rem; color: #cbd5e1; line-height: 1.6;">
+                            Specialized in penetration testing, network configuration, vulnerability discovery, malware mitigation, and developing lightweight digital utilities.
+                        </p>
+
+                        <!-- Stats Highlights -->
+                        <div class="hero-stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Curated Security Guides</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Static & Fast Loading</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">Open</div>
+                                <div class="stat-label">Source Tools on GitHub</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">Android</div>
+                                <div class="stat-label">Mobile App Available</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED MOBILE APP DOWNLOAD SECTION -->
+        <section id="mobile-app" class="section app-showcase-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="badge badge-live section-tag">
+                        <span class="pulse-dot"></span>
+                        <span>FEATURED ANDROID APPLICATION</span>
+                    </div>
+                    <h2 class="section-title">Experience Live Action with Our <span class="text-gradient">Mobile App</span></h2>
+                    <p class="section-desc">
+                        Download our high-performance Android application directly to your smartphone. Fast, lightweight, and engineered for sports fans.
+                    </p>
+                </div>
+
+                <div class="app-card-wrapper">
+                    <div class="app-card-grid">
+                        <div class="app-main-info">
+                            <!-- App Header (Logo, Name, Tagline) -->
+                            <div class="app-header-row">
+                                <div class="app-icon-box">
+                                    <img src="images/app-icon.svg" alt="Live Sports Stream App Logo">
+                                </div>
+                                <div class="app-title-group">
+                                    <h3>CricZ TV</h3>
+                                    <div class="app-subtitle-tag">
+                                        <i class="fas fa-play-circle"></i> Watch Live Sports &amp; Matches in One Place
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- App Description -->
+                            <p class="app-desc-text">
+                                Watch live sports and never miss the action. This application brings live matches and games together in one place, including Football, Cricket, Olympics and other major sporting events.
+                            </p>
+
+                            <!-- Features List -->
+                            <div class="app-features-grid">
+                                <div class="feature-pill">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Football Matches &amp; Leagues</span>
+                                </div>
+                                <div class="feature-pill">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Cricket Tournaments &amp; Live Streams</span>
+                                </div>
+                                <div class="feature-pill">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Olympics &amp; Major Sporting Events</span>
+                                </div>
+                                <div class="feature-pill">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Live Matches &amp; Event Schedules</span>
+                                </div>
+                                <div class="feature-pill">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Simple and Easy-to-Use Interface</span>
+                                </div>
+                                <div class="feature-pill">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Fast &amp; Lightweight APK File</span>
+                                </div>
+                            </div>
+
+                            <!-- App Meta Specs -->
+                            <div class="app-meta-bar">
+                                <div class="meta-item">
+                                    <i class="fab fa-android"></i>
+                                    <span>Platform: <strong>Android 6.0+</strong></span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-code-branch"></i>
+                                    <span>Version: <strong>v6.0</strong></span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-hdd"></i>
+                                    <span>Size: <strong>17.9 MB</strong></span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Updated: <strong>Latest Release</strong></span>
+                                </div>
+                            </div>
+
+                            <!-- 1. LARGE SECURITY & SAFETY WARNING CARD -->
+                            <div class="security-warning-card">
+                                <div class="warning-header">
+                                    <div class="warning-icon-badge">
+                                        <i class="fas fa-shield-virus"></i>
+                                    </div>
+                                    <h3 class="warning-title">⚠️ SECURITY &amp; SAFETY WARNING</h3>
+                                </div>
+
+                                <!-- Highlighted Key Phrases Bar -->
+                                <div class="warning-pills-bar">
+                                    <span class="warning-pill pill-red"><i class="fas fa-exclamation-triangle"></i> THIRD-PARTY APPLICATION</span>
+                                    <span class="warning-pill pill-orange"><i class="fas fa-radiation"></i> USE AT YOUR OWN RISK</span>
+                                    <span class="warning-pill pill-red"><i class="fas fa-ban"></i> DO NOT USE ON A DEVICE WITH SENSITIVE DATA</span>
+                                    <span class="warning-pill pill-orange"><i class="fas fa-lock"></i> NEVER ENTER BANKING OR FINANCIAL CREDENTIALS</span>
+                                </div>
+
+                                <!-- Warning Body -->
+                                <div class="warning-body">
+                                    <p class="warning-lead">
+                                        IMPORTANT: This is a third-party application and it is not developed, owned, or operated by this website. I am only distributing the application for informational/access purposes.
+                                    </p>
+
+                                    <p>
+                                        If you choose to download and install this application, you do so <strong>entirely at your own risk</strong>. The application may request permissions or handle data in ways that I cannot verify or control.
+                                    </p>
+
+                                    <p>
+                                        For your safety, <strong>DO NOT install or use this application on a personal device containing sensitive information, banking applications, passwords, private files, or other important data</strong>.
+                                    </p>
+
+                                    <p>
+                                        If you decide to test the application, consider using an isolated environment such as a <strong>virtualized Android environment (for example, BlueStacks)</strong> or a separate secondary device that does not contain sensitive information. However, understand that virtualization or using an older device does <em>NOT</em> guarantee complete security.
+                                    </p>
+
+                                    <p>
+                                        I am not responsible for data loss, device damage, unauthorized access, account compromise, financial loss, malware, or any other damage that may result from installing or using this third-party application.
+                                    </p>
+
+                                    <div class="warning-callout-box">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <span>Never enter banking credentials, OTPs, UPI PINs, card information, passwords, or other sensitive information into an application you do not fully trust.</span>
+                                    </div>
+                                </div>
+
+                                <!-- 2. USER ACKNOWLEDGEMENT CHECKBOX -->
+                                <div class="user-acknowledgement-box">
+                                    <label class="ack-checkbox-label" for="riskAckHome">
+                                        <input type="checkbox" id="riskAckHome" class="ack-checkbox risk-ack-checkbox" data-target-btn="downloadBtnHome">
+                                        <span>I understand that this is a third-party application and I accept the risks before downloading.</span>
+                                    </label>
+                                    <div class="ack-subtext">
+                                        This acknowledgement is required before the APK download unlocks. It does NOT guarantee application safety.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Download Button and Installation Info -->
+                            <div class="btn-download-container">
+                                <a href="downloads/CricZ_TV_v6.0.apk" id="downloadBtnHome" class="btn btn-download btn-download-app disabled static-app-download" download="CricZ_TV_v6.0.apk" aria-disabled="true" tabindex="-1">
+                                    <i class="fas fa-lock"></i> Check Box Above to Unlock Download
+                                </a>
+
+                                <div class="install-source-note">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span>Note: Android users may need to allow installation from this source.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- App Phone Preview Mockup (Actual App Interface) -->
+                        <div class="app-preview-box">
+                            <div class="screenshot-img-box" style="max-width: 280px; height: 530px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 242, 254, 0.3); border: 3px solid rgba(56, 189, 248, 0.4);">
+                                <img src="images/3.jpeg" alt="CricZ TV Live Match Feed Interface" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. APP PREVIEW SCREENSHOT GALLERY -->
+                    <div class="app-gallery-section">
+                        <div style="text-align: center; max-width: 700px; margin: 0 auto 1.5rem;">
+                            <div class="badge badge-live" style="margin-bottom: 0.5rem;">
+                                <i class="fas fa-images"></i> APP INTERFACE PREVIEW GALLERY
+                            </div>
+                            <h3 style="font-size: 1.65rem; color: var(--text-light);">Inside CricZ TV: App Screenshots</h3>
+                            <p style="font-size: 0.95rem; color: var(--text-muted);">Click any screenshot below to view the full-resolution preview interface.</p>
+                        </div>
+
+                        <div class="gallery-grid">
+                            <!-- Screenshot 1: 3.jpeg -->
+                            <div class="screenshot-card" title="Click to view full screen">
+                                <span class="screenshot-badge"><i class="fas fa-satellite-dish"></i> Live Feed</span>
+                                <div class="screenshot-img-box">
+                                    <img src="images/3.jpeg" alt="CricZ TV Live Events & Match Schedules">
+                                    <span class="screenshot-overlay-hint"><i class="fas fa-expand-arrows-alt"></i></span>
+                                </div>
+                                <div class="screenshot-info">
+                                    <h4>Live Events &amp; Sports Hub</h4>
+                                    <p>Live Cricket (ENG vs SL), Football (UEFA &amp; Africa Cup) with real-time match countdowns.</p>
+                                </div>
+                            </div>
+
+                            <!-- Screenshot 2: 4.jpeg -->
+                            <div class="screenshot-card" title="Click to view full screen">
+                                <span class="screenshot-badge"><i class="fas fa-tv"></i> HD Player</span>
+                                <div class="screenshot-img-box">
+                                    <img src="images/4.jpeg" alt="Multi-Server Live Video Player & Channel Switcher">
+                                    <span class="screenshot-overlay-hint"><i class="fas fa-expand-arrows-alt"></i></span>
+                                </div>
+                                <div class="screenshot-info">
+                                    <h4>Multi-Server Video Player</h4>
+                                    <p>Switch between SportDigital Fussball, Oman Sports HD, and FireStick TV Downloader Code (8913).</p>
+                                </div>
+                            </div>
+
+                            <!-- Screenshot 3: 5.jpeg -->
+                            <div class="screenshot-card" title="Click to view full screen">
+                                <span class="screenshot-badge"><i class="fas fa-play-circle"></i> Stadium Broadcast</span>
+                                <div class="screenshot-img-box landscape-preview">
+                                    <img src="images/5.jpeg" alt="Full-Screen Live Football Match Broadcast">
+                                    <span class="screenshot-overlay-hint"><i class="fas fa-expand-arrows-alt"></i></span>
+                                </div>
+                                <div class="screenshot-info">
+                                    <h4>Full-Screen Match Broadcast</h4>
+                                    <p>Crisp high-definition stadium coverage and official live sports broadcast streams.</p>
+                                </div>
+                            </div>
+
+                            <!-- Screenshot 4: 6.jpeg -->
+                            <div class="screenshot-card" title="Click to view full screen">
+                                <span class="screenshot-badge"><i class="fas fa-sliders-h"></i> Player Controls</span>
+                                <div class="screenshot-img-box landscape-preview">
+                                    <img src="images/6.jpeg" alt="In-Player Streaming Controls & Audio Selector">
+                                    <span class="screenshot-overlay-hint"><i class="fas fa-expand-arrows-alt"></i></span>
+                                </div>
+                                <div class="screenshot-info">
+                                    <h4>Playback &amp; Stream Controls</h4>
+                                    <p>Full-screen playback bar, resolution settings, audio feeds, and lock protection.</p>
+                                </div>
+                            </div>
+
+                            <!-- Screenshot 5: 2.jpeg -->
+                            <div class="screenshot-card" title="Click to view full screen">
+                                <span class="screenshot-badge"><i class="fas fa-sync-alt"></i> In-App Updates</span>
+                                <div class="screenshot-img-box">
+                                    <img src="images/2.jpeg" alt="CricZ TV Version Update Interface">
+                                    <span class="screenshot-overlay-hint"><i class="fas fa-expand-arrows-alt"></i></span>
+                                </div>
+                                <div class="screenshot-info">
+                                    <h4>In-App Update &amp; Channel Manager</h4>
+                                    <p>Instant version update notifications and official channel distribution links.</p>
+                                </div>
+                            </div>
+
+                            <!-- Screenshot 6: 1.jpeg -->
+                            <div class="screenshot-card" title="Click to view full screen">
+                                <span class="screenshot-badge"><i class="fab fa-android"></i> Android Launcher</span>
+                                <div class="screenshot-img-box">
+                                    <img src="images/1.jpeg" alt="Android App Launcher & Installation">
+                                    <span class="screenshot-overlay-hint"><i class="fas fa-expand-arrows-alt"></i></span>
+                                </div>
+                                <div class="screenshot-info">
+                                    <h4>Clean Android Installation</h4>
+                                    <p>Compact APK footprint running smoothly on smartphones, tablets, and Android TV.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES & CAPABILITIES SECTION -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="badge section-tag">
+                        <i class="fas fa-cogs"></i>
+                        <span>SERVICES & EXPERTISE</span>
+                    </div>
+                    <h2 class="section-title">Core Services &amp; <span class="text-gradient">Capabilities</span></h2>
+                    <p class="section-desc">
+                        Providing specialized cybersecurity analysis, open-source utilities, and comprehensive technical reference materials.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="service-title">Cybersecurity &amp; Pen Testing</h3>
+                        <p class="service-desc">
+                            Vulnerability identification, network penetration testing, malware analysis, and risk mitigation methodologies across enterprise and lab infrastructures.
+                        </p>
+                        <a href="about.html" class="btn btn-outline btn-sm">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3 class="service-title">Open-Source Security Tools</h3>
+                        <p class="service-desc">
+                            Developing practical command-line and automation tools like <code>ips</code> for rapid IP and MAC address discovery to streamline penetration testing workflows.
+                        </p>
+                        <a href="projects.html" class="btn btn-outline btn-sm">
+                            View Projects <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h3 class="service-title">Curated PDF Knowledge Base</h3>
+                        <p class="service-desc">
+                            A comprehensive library of 50+ cybersecurity reference documents, interview cheat sheets, networking guides, and penetration testing bibles.
+                        </p>
+                        <a href="pdf.html" class="btn btn-outline btn-sm">
+                            Access Library <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-screen"></i>
+                        </div>
+                        <h3 class="service-title">Mobile &amp; Web Applications</h3>
+                        <p class="service-desc">
+                            Designing clean, lightweight, responsive mobile apps and digital interfaces tailored for seamless media streaming and fast user interaction.
+                        </p>
+                        <a href="mobile.html" class="btn btn-outline btn-sm">
+                            App Hub <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOCIAL & COMMUNITY CONNECT SECTION -->
+        <section id="connect" class="section" style="background: rgba(15, 23, 42, 0.4);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="badge section-tag">
+                        <i class="fas fa-globe"></i>
+                        <span>SOCIAL & COMMUNITY</span>
+                    </div>
+                    <h2 class="section-title">Connect With <span class="text-gradient">DIDWMSA</span></h2>
+                    <p class="section-desc">
+                        Follow my research, view my open-source code repositories, or reach out directly across community channels.
+                    </p>
+                </div>
+
+                <div class="social-grid">
+                    <a href="https://x.com/CYBERWO04021869" target="_blank" rel="noopener noreferrer" class="social-card twitter" aria-label="Twitter X">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="#1DA1F2">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span>Twitter/X</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/posts/didwmsa-bargayary-1848a1215_linux-archlinux-debian-activity-7310856531636285440-0Akl" target="_blank" rel="noopener noreferrer" class="social-card linkedin" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" style="color: #0077b5;"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://github.com/didwmsabargayary" target="_blank" rel="noopener noreferrer" class="social-card github" aria-label="GitHub">
+                        <i class="fab fa-github" style="color: #f8fafc;"></i>
+                        <span>GitHub</span>
+                    </a>
+
+                    <a href="https://medium.com/@didwmsaxander61" target="_blank" rel="noopener noreferrer" class="social-card medium" aria-label="Medium">
+                        <i class="fab fa-medium" style="color: #ffffff;"></i>
+                        <span>Medium</span>
+                    </a>
+
+                    <a href="https://discord.com/channels/1216358389605597237" target="_blank" rel="noopener noreferrer" class="social-card discord" aria-label="Discord">
+                        <i class="fab fa-discord" style="color: #5865F2;"></i>
+                        <span>Discord</span>
+                    </a>
+
+                    <a href="https://wa.me/918638964442" target="_blank" rel="noopener noreferrer" class="social-card whatsapp" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                        <span>WhatsApp</span>
+                    </a>
+
+                    <a href="https://www.youtube.com/@cyberwolf4572" target="_blank" rel="noopener noreferrer" class="social-card youtube" aria-label="YouTube">
+                        <i class="fab fa-youtube" style="color: #FF0000;"></i>
+                        <span>YouTube</span>
+                    </a>
+
+                    <a href="https://paypal.me/didwmsa?country.x=IN&locale.x=en_GB" target="_blank" rel="noopener noreferrer" class="social-card paypal" aria-label="PayPal">
+                        <i class="fab fa-paypal" style="color: #00457C;"></i>
+                        <span>PayPal</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="brand-link">
+                        <div class="brand-avatar">
+                            <img src="images/profile.jpg" alt="DIDWMSA BARGAYARY">
+                        </div>
+                        <div class="brand-text">
+                            <span class="brand-name">DIDWMSA BARGAYARY</span>
+                            <span class="brand-tagline">Cybersecurity & Tools</span>
+                        </div>
+                    </a>
+                    <p>
+                        Dedicated to cybersecurity research, network security engineering, open-source utilities, and modern mobile software.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Resources &amp; Apps</h4>
+                    <ul class="footer-links">
+                        <li><a href="#mobile-app">Featured Mobile App</a></li>
+                        <li><a href="mobile.html">Mobile App Hub</a></li>
+                        <li><a href="pdf.html">PDF Library</a></li>
+                        <li><a href="list-all-pdfs.html">All PDF Files</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Direct Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/didwmsabargayary" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub Profile</a></li>
+                        <li><a href="downloads/CricZ_TV_v6.0.apk" download="CricZ_TV_v6.0.apk"><i class="fas fa-download"></i> Download CricZ TV (.APK)</a></li>
+                        <li><a href="https://wa.me/918638964442" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    &copy; <span class="current-year">2024</span> DIDWMSA BARGAYARY. All rights reserved.
+                </div>
+                <div class="gh-pages-badge">
+                    <i class="fab fa-github"></i> 100% Static & GitHub Pages Ready
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Screenshot Lightbox Modal -->
+    <div id="screenshotModal" class="screenshot-modal" role="dialog" aria-modal="true" aria-label="Screenshot Full Preview">
+        <button class="screenshot-nav-btn screenshot-prev-btn" title="Previous Screenshot" aria-label="Previous Screenshot"><i class="fas fa-chevron-left"></i></button>
+        <button class="screenshot-nav-btn screenshot-next-btn" title="Next Screenshot" aria-label="Next Screenshot"><i class="fas fa-chevron-right"></i></button>
+        
+        <div class="screenshot-modal-content">
+            <span class="screenshot-modal-close" title="Close Preview">&times;</span>
+            <img id="modalScreenshotImg" class="screenshot-modal-img" src="" alt="Full App Screenshot">
+            <div id="modalScreenshotCaption" class="screenshot-modal-caption"></div>
+        </div>
+    </div>
+
+</body>
+</html>
